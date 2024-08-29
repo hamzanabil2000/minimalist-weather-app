@@ -1,0 +1,63 @@
+Create a Minimalist Weather App using Next.js
+
+Objective:
+Develop a clean, user-friendly weather application that provides essential weather information with an elegant design. The app should demonstrate proficiency in Next.js, React hooks, API integration, and responsive design.
+
+Key Features:
+
+1. Location Input:
+   - Implement a search bar where users can enter a city name or zip code.
+   - Include autocomplete functionality for city names to improve user experience.
+   - Store the last 5 searched locations in local storage for quick access.
+
+2. Current Weather Display:
+   - Show the current temperature prominently.
+   - Display a brief description of the weather (e.g., "Sunny", "Partly Cloudy").
+   - Include an appropriate weather icon (e.g., sun, cloud, rain).
+   - Show additional details like humidity, wind speed, and feels-like temperature.
+
+3. 3-Day Forecast:
+   - Display high and low temperatures for the next 3 days.
+   - Include small icons representing the weather condition for each day.
+   - Show the day of the week for each forecast day.
+
+4. Unit Toggle:
+   - Create a toggle switch to change between Celsius and Fahrenheit.
+   - Ensure all temperatures update immediately when the unit is changed.
+   - Remember the user's preference and apply it on future visits.
+
+5. Dynamic Theming:
+   - Implement at least 4 different color schemes (e.g., Clear, Cloudy, Rainy, Night).
+   - Change the app's background color, text color, and potentially icon colors based on the current weather condition and time of day.
+   - Ensure smooth transitions between themes.
+
+6. Responsive Design:
+   - Create layouts optimized for mobile (320px - 480px), tablet (481px - 768px), and desktop (769px and above) screens.
+   - Use CSS Grid or Flexbox for layouts.
+   - Ensure all features are accessible and usable across all device sizes.
+
+7. Loading States:
+   - Implement skeleton screens or loading spinners while fetching data.
+   - Ensure transitions between loading and loaded states are smooth.
+
+8. Error Handling:
+   - Display user-friendly error messages for API failures, network issues, or invalid locations.
+   - Provide guidance on how to resolve errors (e.g., "City not found. Please check the spelling and try again.").
+
+9. Time Display:
+   - Show the current time and date for the selected location.
+   - Update the time display in real-time.
+   - Format the date and time according to the locale of the selected location.
+
+10. Search History:
+    - Display the last 5 searched locations below the search bar.
+    - Allow users to quickly select a previous location.
+    - Provide an option to clear search history.
+
+
+Deliverables:
+- A fully functional Next.js application meeting all the above requirements.
+- A README file with instructions on how to run the application locally.
+- A brief explanation of your design decisions and any challenges faced during development.
+
+This detailed description should provide a clear roadmap for developing the Minimalist Weather App, covering all aspects from functionality to technical implementation. It leaves room for creative design choices while ensuring a comprehensive demonstration of Next.js and React skills.
